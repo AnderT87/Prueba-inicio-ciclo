@@ -4,13 +4,17 @@
 
 package ec.gob.orellana.www.anderayovi20250522;
 
-/**
- *
- * @author SO-LAB-PC6
- */
+import java.util.Scanner;
 public class AnderAyovi20250522 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        consultaVeterinaria objConsulta = new consultaVeterinaria("Diablo",6,"2025/02/01");
+        Scanner sc = new Scanner(System.in);
+        int opcion;
+        System.out.println("Su mascota es:");
+         System.out.println("1.Un Perro");
+         System.out.println("2.Un Gato");
+         System.out.println("3.Un Ave");
+         opcion = sc.nextInt();
     }
 }
